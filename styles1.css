@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #ff3366;
+    color: #fff;
+    padding: 20px 20px;
+    text-align: right;
+ 
+}
+
+.menu-options a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.landing-container {
+    position: relative;
+}
+
+.landing-container img {
+    width: 100%;
+    height: auto;
+}
+
+
+.header-text{
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    color: #44add9;
+ 
+
+}
+.overlay {
+    position: absolute;
+    top: 43%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.generate-button {
+    background-color: #ff3366;
+    color: #fff;
+    border: none;
+  
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    
+}
+
+.generate-button:hover {
+    background-color: #e6005c;
+}
+
+
+
